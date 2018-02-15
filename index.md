@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /
 title: "a home page"
 ---
 <div class="page-lead" style="background-image:url(images/feature.jpg)">

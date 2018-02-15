@@ -1,6 +1,5 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: "post"
+  url: /archive
+  excerpt: hi

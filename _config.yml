@@ -5,7 +5,7 @@ description: "A perpetual work-in-progress."
 logo: # 120x120 px default image used for Twitter summary card
 teaser: phold.png
 locale: en
-#url:
+url: http://localhost:4000
 #feed:
   #path: atom.xml
 
@@ -28,13 +28,13 @@ plugins:
 owner:
   name: Avery Horton
   email: avghdev@gmail.com   
-  twitter:
+  twitter: avghdev
   google:
     ad-client:
     ad-slot:
   bio: "one curious man"
   avatar: me.jpg # 160x160 px image for author byline
-  disqus-shortname:
+  disqus-shortname: underdeveloped
 
 
 include:
