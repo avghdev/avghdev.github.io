@@ -1,13 +1,13 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
+title: "underdeveloped"
+description: "A perpetual work-in-progress."
 logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+teaser: phold.png
 locale: en
-url:
-feed:
-  path: atom.xml
+#url:
+#feed:
+  #path: atom.xml
 
 # Jekyll configuration
 
@@ -18,7 +18,7 @@ permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -26,14 +26,14 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
+  name: Avery Horton
+  email: avghdev@gmail.com   
   twitter:
   google:
     ad-client:
     ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  bio: "one curious man"
+  avatar: me.jpg # 160x160 px image for author byline
   disqus-shortname:
 
 
