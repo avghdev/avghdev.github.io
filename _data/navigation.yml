@@ -1,5 +1,6 @@
 # Site navigation links
 
-- title: "posts"
+- title: "archive"
   url: /archive
-  excerpt: hi
+  excerpt: archive of articles
+  image: phold_tb.gif
