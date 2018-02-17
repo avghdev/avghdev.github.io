@@ -1,9 +1,11 @@
 # Site navigation links
 
-- title: "archive"
-  url: /archive
-  excerpt: archive of articles
+- title: "development"
+  url: /development
+  excerpt: posts that fit under the 'development' category
+  image: dev.jpeg
   
 - title: "about"
   url: /about
   excerpt: about me 
+  image: me.jpg

@@ -19,9 +19,9 @@ permalink: /
             <blockquote>This website is - as the name might imply - a perpetual work-in-progress</blockquote>
         </div>
         <hr>
-        <h4>latest posts</h4>
+        <h2>latest posts</h2>
         <div class="tiles">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:4 %}
           {% include post-grid.html %}
         {% endfor %}
         </div>

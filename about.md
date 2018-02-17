@@ -13,3 +13,5 @@ I have a lot of interests, too many for one lifetime probably. As of now, I can 
 * College Student
 * Technology Instructor
 
+
+
