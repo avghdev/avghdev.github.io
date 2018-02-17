@@ -3,12 +3,11 @@ layout: default
 title: "a home page"
 permalink: /
 ---
-<div class="page-lead" style="background-image:url(images/feature.jpg)">
-      <div class="page-lead-content">
-        <h1>underdeveloped</h1>
-        <h2>a home page</h2>
-      </div><!-- /.page-lead-content -->
-</div>
+<div class="page-feature">
+    <div class="page-image">
+        <img src="{{ site.url }}/images/feature.jpg" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+    </div><!-- /.page-image -->
+</div><!-- /.page-feature -->
 
 <div class="page-wrapper">
     <div id="main" role="main" class="wrap">

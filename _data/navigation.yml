@@ -3,4 +3,7 @@
 - title: "archive"
   url: /archive
   excerpt: archive of articles
-  image: phold_tb.gif
+  
+- title: "about"
+  url: /about
+  excerpt: about me 
