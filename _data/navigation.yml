@@ -5,6 +5,11 @@
   excerpt: posts that fit under the 'development' category
   image: dev.jpeg
   
+- title: "arts"
+  url: /arts
+  excerpt: posts that fit under the 'art' category 
+  image: arth.jpg
+  
 - title: "about"
   url: /about
   excerpt: about me 
