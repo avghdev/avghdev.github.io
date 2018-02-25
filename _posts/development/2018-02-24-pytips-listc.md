@@ -59,6 +59,6 @@ rlist = [ round( uniform(1.0, 50.0) ) for i in range(15) ]
 print(rlist)
 ```
 
-Clearly the second example is much quicker and more concise. In a program that uses a lot of for loops to initialize it's lists - especially fairly uncomplicated for loops - this technique can really improve the workflow. It may be far from a magical piece of python advice that will sky-rocket you to the pinnacle of mastery, but I believe it definitely helps to have it tucked away in your tool belt. I have definitely used this method quite a lot since discovering it.
+It may not seem like much, but the second example is much quicker and more concise. In a program that uses a lot of for loops to initialize it's lists - especially fairly uncomplicated for loops - this technique can really improve the workflow. It may be far from a magical piece of python advice that will sky-rocket you to the pinnacle of mastery, but I believe it definitely helps to have it tucked away in your tool belt. I have definitely used this method quite a lot since discovering it.
 
 I hope to keep up posts like this in the future - just so I can share cool little things I learn about Python as I go along. Next up **Ternary Functions**!
