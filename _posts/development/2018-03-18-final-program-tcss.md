@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Final Program - TCSS142"
-date:   2018-18-03
+date:   2018-03-18
 categories: development
 image:
     teaser: uwt_teaser_image.jpg
