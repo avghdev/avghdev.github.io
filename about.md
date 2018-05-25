@@ -1,17 +1,24 @@
 ---
 layout: archive
-title: "about me"
+title: "Goals"
 permalink: /about/
 image:
     feature: aboutf.jpg
 ---
 
-I have a lot of interests, too many for one lifetime probably. As of now, I can be described in a few ways:
+I have a lot of things I want to achieve, here is a handy place to keep them.
 
-* Programming Hobbyist
-* Musical Actor and Dedicated Thespian
-* College Student
-* Technology Instructor
+##### Development Goals
 
+* Create my own Jekyll theme **or** convert to [Hugo](https://gohugo.io/)
+* Buy my own domain (underdeveloped.io?)
+* Participate in PyWeek
 
+##### Career Goals
 
+* Intern at a big company - sCurrent Top 5:
+  - Google
+  - Facebook
+  - Disney
+  - Amazon
+  - Microsoft

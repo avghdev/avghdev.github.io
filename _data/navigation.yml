@@ -4,13 +4,18 @@
   url: /development
   excerpt: posts that fit under the 'development' category
   image: dev.jpeg
-  
+
+- title: "games"
+  url: /games
+  excerpt: posts that fit under the 'games' category
+  image: dev.jpeg
+
 - title: "arts"
   url: /arts
-  excerpt: posts that fit under the 'art' category 
+  excerpt: posts that fit under the 'art' category
   image: arth.jpg
-  
+
 - title: "about"
   url: /about
-  excerpt: about me 
+  excerpt: about me
   image: me.jpg
