@@ -13,10 +13,9 @@ As I have just turned 19, I have set 19 goals for myself. They will be listed he
 #### 19 Goals for a 19 year old me
 
 - **Exercise.** I know, this one is pretty broad. However I want to work towards achieving a few things in particular. **(Try to exercise every day)**
+    - Work on getting my arms to look bigger (biceps and triceps)
 
-..- Work on getting my arms to look bigger (biceps and triceps)
-
-..- Redefine my abs. A sixpack would be nice.
+    - Redefine my abs. A sixpack would be nice.
 
 ..- Become more flexible. I'm currently much like a t-rex trying to bend over.
 
