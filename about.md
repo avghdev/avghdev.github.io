@@ -17,13 +17,13 @@ As I have just turned 19, I have set 19 goals for myself. They will be listed he
 
     - Redefine my abs. A sixpack would be nice.
 
-..- Become more flexible. I'm currently much like a t-rex trying to bend over.
+    - Become more flexible. I'm currently much like a t-rex trying to bend over.
 
-..- Perhaps learn some gymnastics. I've especially always wanted to be capable of doing a standing backflip.
+    - Perhaps learn some gymnastics. I've especially always wanted to be capable of doing a standing backflip.
 
-..- Posture. I have a minor case of "nerd neck", and despite the fitting name I would genuinely like to be rid of it.
+    - Posture. I have a minor case of "nerd neck", and despite the fitting name I would genuinely like to be rid of it.
 
-..- Dancing. I love musical theatre, yet my horrid dancing has always made me feel as though I have fallen short.
+    - Dancing. I love musical theatre, yet my horrid dancing has always made me feel as though I have fallen short.
 
 - **Complete one coding project a month.** Depending on the scale and scope of each project, this could be either incredibly easy or extremely difficult to achieve. I guess we will find out! Currently I am hoping to write a program to assist with my *Starfinder* roleplaying campaign.
 
