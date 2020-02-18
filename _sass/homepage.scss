@@ -46,8 +46,13 @@
   background-size: cover;
 }
 
+_::-webkit-full-page-media, _:future, :root #actor_gallery div {
+
+  height: 40%;
+
+}
+
 #actor_gallery div {
-  height: 50%;
   display: flex;
 }
 
