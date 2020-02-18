@@ -1,0 +1,33 @@
+.post-descriptors {
+  font-size: .7rem;
+}
+
+.post-feature {
+  width: 100%;
+}
+
+.post-feature img {
+  height: 30vh;
+  object-fit: cover;
+
+}
+
+.post-title {
+  font-family: "Times New Roman";
+}
+
+.post-content {
+  font-family: "Times New Roman";
+  font-size: 1.2rem;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+//Adam Ruff redacted style
+.blurred {
+  filter: blur(6px);
+}

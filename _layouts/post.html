@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <header>
+    {% include nav.html %}
+    </header>
+
+    <div class="container page">
+
+      <h1 class="display-4 post-title pb-5">{{ page.title }}</h1>
+
+      {% if page.featured-img %}
+      <div id="post-feature" class="position-relative text-center">
+        <img src="{{ page.featured-img | prepend: site.url}}" class="img-fluid">
+      </div>
+      {% endif %}
+
+      <div class="pb-4 text-secondary" style="font-size: 0.8rem">
+      Published: {{ page.date | date_to_string: "ordinal", "US" }}
+      </div>
+
+      <div class="post-content mx-lg-5">
+
+      {{ content }}
+
+      </div>
+
+
+      {% include related-posts.html %}
+
+    </div>
+
+    {% include footer.html %}
+
+    <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.url}}"></script>
+    <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.url}}"></script>
+    <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.url}}"></script>
+  </body>
+
+</html>

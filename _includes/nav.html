@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand navbar-light bg-light fixed-top py-0">
+    <a class="navbar-brand mr-5" href="{{site.url}}">
+        <img src="/assets/images/nav_icon.png" height="40" class="d-inline-block align-bottom" alt="">
+        <h2 id="nav-icon-text" class="d-sm-inline-block d-none align-top m-0">AVERY</h2>
+    </a>
+
+    <ul class="navbar-nav mr-auto ">
+        {% for item in site.data.nav %}
+        <li class="nav-item mx-4"><a class="nav-link" href="{{site.url}}/{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>

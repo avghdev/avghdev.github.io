@@ -1,64 +1,60 @@
-# Site wide configuration
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: "underdeveloped"
-description: "A perpetual work-in-progress."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: phold.png
-locale: en
-#url: http://localhost:4000
-#feed:
-  #path: atom.xml
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Jekyll configuration
+title: Avery Horton
+email: avghdev@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Avery is a programmer and actor documenting his journey
+  navigating the performance and technology industries.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: avghdev
+github_username:  avghdev
 
-sass:
-  sass_dir: _sass
-  style: compressed
-permalink: /:categories/:title/
-kramdown:
-  toc_levels: 1..4
-highlighter: rouge
+collections:
+  skills:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "skills"
+    values:
+      layout: "default"
+
+# Build settings
+markdown: kramdown
 plugins:
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-
-
-# Site owner
-owner:
-  name: Avery Horton
-  email: avghdev@gmail.com
-  twitter: avghdev
-  google:
-    ad-client:
-    ad-slot:
-  bio: "actor | programmer | student | teacher | memelord"
-  avatar: postpic.jpg # 160x160 px image for author byline
-  disqus-shortname: underdeveloped
-
-
-include:
-  - .htaccess
+sass:
+  load_paths:
+    - _sass
+    - node_modules
 exclude:
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
   - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
+  - Gemfile.lock
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

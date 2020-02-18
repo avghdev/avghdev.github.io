@@ -1,0 +1,75 @@
+---
+---
+
+@import "variables";
+@import "homepage";
+@import "blog";
+@import "bootstrap/scss/bootstrap";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 260px; }
+}
+
+#programmer-hero-text {
+  font-size: 1.5rem;
+}
+
+#programmer_current_project, #actor_current_project {
+  width: 100%;
+}
+
+.display-4 {
+  font-size: 3rem;
+}
+
+.post-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: $box-shadow !important;
+}
+
+@include media-breakpoint-up(sm) {
+  #programmer-hero-text {
+    font-size: 3rem;
+  }
+
+  #programmer_current_project, #actor_current_project {
+    width: 90%;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 510px; }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #programmer_current_project, #actor_current_project {
+    width: 80%;
+  }
+
+  .post-content img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .white_divider {
+    width: 50%;
+  }
+
+  .post-content img {
+    width: 55%;
+  }
+}
+
+
+
