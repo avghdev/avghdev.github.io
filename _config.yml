@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Avery is a programmer and actor documenting his journey
   navigating the performance and technology industries.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://avghdev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: avghdev
 github_username:  avghdev
 
